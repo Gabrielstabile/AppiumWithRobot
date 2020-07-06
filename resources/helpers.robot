@@ -1,7 +1,7 @@
 ***Settings***
 Documentation       Aqui teremos as keywords helpers
 ...                 que iremos utilizar para programar
-...                 as funcionalidades da nossa automação
+...                 as funcionalidades da nossa automação   
 
 ***Variables***
 ${BTN_COMECAR}  COMEÇAR
@@ -18,3 +18,12 @@ Open Nav
     
     Click Element                   ${OPEN_MENU}
     Wait Until Element Is Visible   ${NAV_VIEW}
+
+Go To Login Form
+    Open Nav
+
+    Click Text                  FORMS
+    Wait Until Page Contains    FORMS
+
+    Click Text                  LOGIN
+    Wait Until Page Contains    Fala QA, vamos testar o login?
