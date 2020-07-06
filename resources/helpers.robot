@@ -27,3 +27,12 @@ Go To Login Form
 
     Click Text                  LOGIN
     Wait Until Page Contains    Fala QA, vamos testar o login?
+
+Go To Radio Buttons
+    Open Nav
+
+    Click Text                  INPUTS
+    Wait Until Page Contains    INPUTS
+
+    Click Text                  BOTÕES DE RADIO
+    Wait Until Page Contains    Escolha sua linguagem preferida
